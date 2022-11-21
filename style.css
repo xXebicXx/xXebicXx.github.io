@@ -17,7 +17,7 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 20px;
-    height: 4000px;
+    height: 2250px;
     padding: auto;
     background-color: #FBCF4D;
 }
@@ -83,8 +83,6 @@ button {
 }
 
 #jeff {
-    padding-top: 15px;
     height: 362px;
     width: 599px;
-    padding-bottom: 15px;
 }
