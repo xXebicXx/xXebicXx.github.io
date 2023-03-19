@@ -11,14 +11,12 @@ body {
 .container {
     margin: auto;
     width: 50%;
-    position: auto;
     text-align: left;
     border: 5px solid #CCA737;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 20px;
-    height: 2250px;
-    padding: auto;
+    height: 2000px;
     background-color: #FBCF4D;
 }
 
