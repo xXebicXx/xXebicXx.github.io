@@ -9,6 +9,7 @@ body {
 }
 
 .tab {
+    margin: auto;
     overflow: hidden;
     border: 5px solid #CCA737;
     background-color: #FBCF4D;
