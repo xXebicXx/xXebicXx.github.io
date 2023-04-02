@@ -14,6 +14,7 @@ body {
     border: 5px solid #CCA737;
     background-color: #FBCF4D;
     margin-bottom: 15px;
+    width: 250
 }
 
 .tab button {
