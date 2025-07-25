@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title class="bigTitle">Mama</title>
+        <script type="module">
+            import currentComicNum from './currentComicNumber.json';
+        </script>
+        <script>
+            const re = new RegExp(/[1-9][0-9]*/)
+            window.addEventListener("DOMContentLoaded", function() {
+                import('https://cdn.skypack.dev/date-fns').then((dateFns) => {
+                let date = dateFns.format(new Date(), 'dd-MM-yyyy');
+                $('.title').html(date);
+                $('.bigTitle').html(date);
+                let currentComic = `./comics/${date}_${currentComicNum}.png`;
+                console.log(currentComic);
+                $('.comicShow').attr('src', `./comics/${date}_*.png`);
+            })
+            }, false)
+
+        </script>
+        <link rel="stylesheet" href="./style.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="centerPage">
+            <h1 class="title">Loading...</h1>
+            <img class="comicShow">
+            <div class='buttons'>
+                <button class="left" type="button" onclick="
+                
+                    ">Previous</button>
+                <button class="right" type="button">Next</button>
+            </div>
+        </div>
+    </body>
+</html>

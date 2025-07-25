@@ -1,0 +1,18 @@
+.centerPage {
+    border: 8px solid black;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+}
+
+.comicShow {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
